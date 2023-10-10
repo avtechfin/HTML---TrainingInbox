@@ -1,0 +1,212 @@
+
+
+
+.pie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   
+}
+.Heading1 h1{
+    font-size: 34px;
+    font-weight: 600;
+    
+    text-align: center;
+    justify-content: center;
+}
+.pie-chart {
+    background:
+        radial-gradient(
+            circle closest-side,
+            transparent 72%,
+            white 0
+        ),
+        conic-gradient(
+            #fad223 0,
+            #fad223 25.3%,
+            #ff4f4f 0,
+            #ff4f4f 40.8%,
+            #5fce15 0,
+            #5fce15 60.8%,
+            #8514de 0,
+            #8514de 88.9%,
+            #014f80 0,
+            #014f80 100%
+    );
+    position: relative;
+    border: 2px solid #fff;
+    width: 500px;
+    min-height: 350px;
+    left: 30%;
+
+
+    
+}
+
+.pos{
+    display: flex;
+}
+.legend{
+    display: flex;
+    flex-direction: column;
+}
+.Heading2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+
+
+.fontstyle1{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hr{
+    width: 90%;
+    border-top: 2px solid black;
+}
+
+.hr1{
+    position: relative;
+    width: 90%;
+    bottom: 150px;
+    border-top: 2px solid black;
+    
+}
+
+.pie-chart figcaption {
+    position: absolute;
+    bottom: 1.8em;
+    right: -18em;
+    font-size: 26px;
+    text-align: right;
+}
+
+.para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+}
+
+.para1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 150px;
+    margin: 40px;
+}
+
+.legal b{
+    font-size: 14px;
+}
+
+.legal{
+    font-size: 14px;
+    margin: 36px;
+    position: relative;
+    bottom: 160px;
+}
+
+b{
+font-size: 18px;
+}
+.pie-chart span:after {
+display: inline-block;
+content: "";
+width: 0.8em;
+height: 0.8em;
+margin-left: 0.4em;
+height: 0.8em;
+border-radius: 0.2em;
+background: currentColor;
+}
+
+
+
+.b-skills
+{
+border-top: 1px solid #f9f9f9;
+padding-top: 16px;
+text-align: center;
+}
+
+
+
+
+
+.skill-item
+{
+position: relative;
+max-width: 250px;
+width: 100%;
+margin-right: 200px;
+
+color: #555;
+}
+
+.chart-container
+{
+position: relative;
+width: 50%;
+height: 0;
+padding-top: 50%;
+margin-bottom: 7px;
+}
+
+.skill-item .chart,
+.skill-item .chart canvas
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+.skill-item .chart:before
+{
+content: "";
+width: 0;
+height: 100%;
+}
+
+.skill-item .chart:before,
+.skill-item .percent
+{
+display: inline-block;
+vertical-align: middle;
+}
+
+.skill-item .percent
+{
+position: relative;
+line-height: 1;
+font-size: 28px;
+font-weight: 900;
+z-index: 2;
+}
+
+.skill-item  .percent:after
+{
+content: attr(data-after);
+font-size: 24px;
+}
+
+p{
+   font-weight: 900;
+   margin-right: 120px;
+}
+
+img{
+    position: relative;
+   left: -17px;
+}
+
+
+
